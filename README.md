@@ -15,6 +15,10 @@ https://www.reddit.com/r/LivingBackgrounds/comments/57br0q/i_made_this_software_
 
 Require VS2015 and .NET Framework 4.5.
 
+## Current release
+
+https://github.com/IdolKeg/AnimaPaper/releases/tag/v0.3
+
 ## Known issues
 
 Work only for Windows 8, 8.1 and 10 for now.
