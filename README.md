@@ -1,3 +1,4 @@
+Depending on the video quality (HD / FullHD, 30FPS/60FPS, Codec used) The CPU usage may vary, from almost nothing with a low video quality, 30FPS to high usage with FullHD/4K + 60FPS. Memory usage should be video size + app size 
 # AnimaPaper
 
 AnimaPaper is a software that allow you to display a video (support most of the common extensions) behind the desktop's icons.
@@ -20,6 +21,8 @@ Work only for Windows 8, 8.1 and 10 for now.
 
 ## Current
 
+- Use of ModernUI for WPF Library (Github here: https://github.com/firstfloorsoftware/mui )
+- Depending on the video quality (HD / FullHD, 30FPS/60FPS, Codec used) The CPU usage may vary, from almost nothing with a low video quality, 30FPS to high usage with FullHD/4K + 60FPS. Memory usage should be video size + app size
 - Load and play most video files like a Live Wallpaper (Looping)
 - Can Minimize to Tray
 - Multiple Monitor support (Maybe ? need some test, I have only 1, coding blindly)
