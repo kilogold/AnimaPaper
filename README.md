@@ -1,6 +1,7 @@
 # Anima Paper
 
-TODO: Write a project description
+AnimaPaper is a software that allow you to display a video (support most of the common extensions) behind the desktop's icons.
+
 
 ## Installation
 
