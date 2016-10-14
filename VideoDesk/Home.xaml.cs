@@ -136,6 +136,7 @@ namespace VideoDesk
 
                 MainWindow.windowList[i].Initialized += new EventHandler((s, ea) =>
                 {
+
                     MainWindow.media = new MediaElement();
                     Grid grid = new Grid();
                     MainWindow.windowList[i].Content = grid;

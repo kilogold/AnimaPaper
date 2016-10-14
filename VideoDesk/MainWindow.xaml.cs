@@ -103,7 +103,7 @@ namespace VideoDesk
                 ni.BalloonTipTitle = "Anime Paper";
                 ni.BalloonTipText = "Anime Paper is minimized";
                 ni.Visible = true;
-                ni.ShowBalloonTip(500);
+                ni.ShowBalloonTip(250);
                 this.Hide();
             }
             else if (WindowState.Normal == this.WindowState)
@@ -191,7 +191,7 @@ namespace VideoDesk
                                             IntPtr.Zero,
                                             "Progman",
                                             IntPtr.Zero);
-
+                    
                 if (p != IntPtr.Zero)
                 {
                     // Gets the WorkerW Window after the current one.
