@@ -1,4 +1,4 @@
-# Anima Paper
+# $(PROJECT_NAME)
 
 AnimaPaper is a software that allow you to display a video (support most of the common extensions) behind the desktop's icons.
 
@@ -64,8 +64,17 @@ https://www.youtube.com/watch?v=Jj--GahPvUQ&feature=youtu.be
 	
 ## Credits
 
-Creator Idolkeg
+Creator Idolkeg.
+
+Thank you, [contributors]!
+[contributors]: https://github.com/thoughtbot/$(REPO_NAME)/graphs/contributors
 
 ## License
 
-MIT License
+$(PROJECT_NAME) is Copyright (c) 2016.
+
+It is free software, and may be redistributed
+
+under the terms specified in the [LICENSE] file.
+
+[LICENSE]: /LICENSE
