@@ -1,4 +1,4 @@
-# Project Name
+# AnimaPaper
 
 TODO: Write a project description
 
@@ -24,8 +24,9 @@ TODO: Write history
 
 ## Credits
 
-TODO: Write credits
+Creator: IdolKeg
+
 
 ## License
 
-TODO: Write license
+MIT License. Check the file named LICENSE.
