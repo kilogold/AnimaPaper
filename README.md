@@ -9,13 +9,12 @@ https://www.reddit.com/r/LivingBackgrounds/comments/57br0q/i_made_this_software_
 
 - Download the 4 files ready to use.
 - There is not installer.
-- https://1drv.ms/f/s!AnesVbO0FngXgcMOB5ZLZcNpm7_0mw
 
 ## Compile
 
 Require VS2015 and .NET Framework 4.5.
 
-## Current release
+## Current release (Download this)
 
 https://github.com/IdolKeg/AnimaPaper/releases/tag/v0.3
 
