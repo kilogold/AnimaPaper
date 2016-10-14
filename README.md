@@ -2,6 +2,8 @@
 
 AnimaPaper is a software that allow you to display a video (support most of the common extensions) behind the desktop's icons.
 
+Check the reddit topic for more informations:
+https://www.reddit.com/r/LivingBackgrounds/comments/57br0q/i_made_this_software_that_you_may_be_interested_in/
 
 ## Installation
 
