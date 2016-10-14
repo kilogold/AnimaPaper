@@ -1,16 +1,24 @@
-<snippet>
-  <content><![CDATA[
-# ${1:Project Name}
+# Anima Paper
 
 TODO: Write a project description
 
 ## Installation
 
-TODO: Describe the installation process
+Download the 4 files ready to use.
+There is not installer.
+
+## Compile
+
+Require VS2015 and .NET Framework 4.5.
+
+## Known issues
+
+Work only for Windows 8, 8.1 and 10 for now.
+
 
 ## Usage
 
-TODO: Write usage instructions
+https://www.youtube.com/watch?v=Jj--GahPvUQ&feature=youtu.be
 
 ## Contributing
 
@@ -20,17 +28,12 @@ TODO: Write usage instructions
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
-## History
-
-TODO: Write history
+## Changelog
 
 ## Credits
 
-TODO: Write credits
+Creator Idolkeg
 
 ## License
 
-TODO: Write license
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
+MIT License
