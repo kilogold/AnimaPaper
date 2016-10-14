@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimePaper", "VideoDesk\AnimePaper.csproj", "{19331B1E-7DC0-4143-A815-71D8E4572968}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimaPaper", "VideoDesk\AnimaPaper.csproj", "{19331B1E-7DC0-4143-A815-71D8E4572968}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
