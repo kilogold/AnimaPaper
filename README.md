@@ -7,8 +7,9 @@ https://www.reddit.com/r/LivingBackgrounds/comments/57br0q/i_made_this_software_
 
 ## Installation
 
-Download the 4 files ready to use.
-There is not installer.
+- Download the 4 files ready to use.
+- There is not installer.
+- https://1drv.ms/f/s!AnesVbO0FngXgcMOB5ZLZcNpm7_0mw
 
 ## Compile
 
