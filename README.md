@@ -28,10 +28,10 @@ Work only for Windows 8, 8.1 and 10 for now.
 
 ## Upcoming
 
-> Automatic patching ?
-> Library management (Maybe ?)
-> automatically change wallpapers/videos based on time? Like, one for the morning, one for afternoon, one for night, etc. (From xrailgun )
-> 1 different video per monitor (Yes it's possible, it requires some coding but I can do it :b) (It will also increase the CPU and Memory Load.
+- Automatic patching ?
+- Library management (Maybe ?)
+- automatically change wallpapers/videos based on time? Like, one for the morning, one for afternoon, one for night, etc. (From xrailgun )
+- 1 different video per monitor (Yes it's possible, it requires some coding but I can do it :b) (It will also increase the CPU and Memory Load.
 
 
 ## Usage
@@ -71,7 +71,7 @@ Thank you, [contributors]!
 
 ## License
 
-$(PROJECT_NAME) is Copyright (c) 2016.
+AnimaPaper is Copyright (c) 2016.
 
 It is free software, and may be redistributed
 
