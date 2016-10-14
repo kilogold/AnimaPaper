@@ -28,10 +28,10 @@ WiP different video on each monitor NOT FULLY IMPLEMENTED Basically the UI and s
 
 ## Upcoming
 
-Automatic patching ?
-Library management (Maybe ?)
-automatically change wallpapers/videos based on time? Like, one for the morning, one for afternoon, one for night, etc. (From xrailgun )
-1 different video per monitor (Yes it's possible, it requires some coding but I can do it :b) (It will also increase the CPU and Memory Load.
+> Automatic patching ?
+> Library management (Maybe ?)
+> automatically change wallpapers/videos based on time? Like, one for the morning, one for afternoon, one for night, etc. (From xrailgun )
+> 1 different video per monitor (Yes it's possible, it requires some coding but I can do it :b) (It will also increase the CPU and Memory Load.
 
 
 ## Usage
@@ -49,18 +49,18 @@ https://www.youtube.com/watch?v=Jj--GahPvUQ&feature=youtu.be
 ## Changelog
 
 	v0.2.5: 
-	Add Sound Control
-	Add UI and some code for 1 video per monitor DOES NOT WORK YET
-	Fix for Windows 7 and below users (hopefully it's working, I don't have Windows 7 anymore) Reverted because not working
+	- Add Sound Control
+	- Add UI and some code for 1 video per monitor DOES NOT WORK YET
+	- Fix for Windows 7 and below users (hopefully it's working, I don't have Windows 7 anymore) Reverted because not working
 	
 	v0.2.4: 
-	Add Gif files should properly loop now
+	- Add Gif files should properly loop now
 	
 	v0.2.3.3:
-	I changed some stuff about the memory management and the objects, even with run stop run stop etc, you should not feel lags.
-	The minimizing to Tray Icon SHOULD work properly and not crash or stay in the Tray even when the application is closed.
-	Minimizing using Minimize button top-right. Closing button will actually close everything properly now. (Unless you want to change it ?)
-	Closing using X button top-right. Closing button will actually close everything properly now. (It was staying in the Task manager actually but now it should work as intended) 
+	- I changed some stuff about the memory management and the objects, even with run stop run stop etc, you should not feel lags.
+	- The minimizing to Tray Icon SHOULD work properly and not crash or stay in the Tray even when the application is closed.
+	- Minimizing using Minimize button top-right. Closing button will actually close everything properly now. (Unless you want to change it ?)
+	- Closing using X button top-right. Closing button will actually close everything properly now. (It was staying in the Task manager actually but now it should work as intended) 
 	
 ## Credits
 
