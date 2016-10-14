@@ -25,9 +25,12 @@ namespace VideoDesk
 
         bool onlyOne;
         bool winSeven;
+
+        // For 1 video per monitor *not yet in*
         public static List<String> FileLoadList;
         public static List<int> FileLoadListSort;
         public static List<Uri> FileLoadListUri;
+
         public Home()
         {
             InitializeComponent();
@@ -38,6 +41,8 @@ namespace VideoDesk
             FileLoadListUri = new List<Uri>();
             onlyOne = true;
             Each.Visibility = Visibility.Hidden;
+
+            //Multiple monitor thing (dynamic button creation)
             if (MainWindow.ScreenList.Count > 1)
             {
                 Each.Visibility = Visibility.Visible;
@@ -56,8 +61,11 @@ namespace VideoDesk
                 Multiple.IsEnabled = false;
             else
                 Multiple.IsEnabled = true;
+
         }
 
+        //Multiple monitors
+        //Not working yet, but will be used to load and prepare the video that are going to be played on each monitor
         private void DynaButton_Click(object sender, RoutedEventArgs e)
         {
             var fileDialog = new System.Windows.Forms.OpenFileDialog();
@@ -83,6 +91,7 @@ namespace VideoDesk
             }
         }
 
+        //One monitor or all the same
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             var fileDialog = new System.Windows.Forms.OpenFileDialog();

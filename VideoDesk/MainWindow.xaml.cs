@@ -55,9 +55,10 @@ namespace VideoDesk
             media = null;
             soundOrNot = false;
             currentlyPlaying = false;
-            player = new MediaPlayer { Volume = 0, ScrubbingEnabled = true };
-            //this.WindowStyle = WindowStyle.SingleBorderWindow;
 
+            player = new MediaPlayer { Volume = 0, ScrubbingEnabled = true }; //Used for thumbnails, not yet implemented
+
+            // Tray icon and balloon
             ni = new System.Windows.Forms.NotifyIcon();
             ni.Icon = new System.Drawing.Icon("./AnimePaper.ico");
 
@@ -69,7 +70,13 @@ namespace VideoDesk
                 };
 
 
-
+            /*
+             * 
+             * Check monitor numbers and put them in differents Arraylist
+             * ScreenList is used to get the actual resolution of a screen
+             * windowList will be used to create 1 window per monitor *Not yet implemented*
+             * ButtonList will be used to create dynamically button in order to select and load a file for each monitor *Not yet implemented*
+             */
             windowList = new List<Window>();
             ScreenList = new List<System.Drawing.Rectangle>();
             ButtonList = new List<System.Windows.Controls.Button>();
@@ -91,10 +98,6 @@ namespace VideoDesk
             }
         }
 
-        private void Anime_Paper_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            Process.GetCurrentProcess().Kill();
-        }
 
         protected override void OnStateChanged(EventArgs e)
         {
@@ -146,15 +149,21 @@ namespace VideoDesk
             closeAll();
             base.OnClosing(e);
         }
+
+        /// <summary>
+        /// This is used to create and find the actual worker window.
+        /// Program manager is the root of all windows
+        /// Icons are drawn on a window
+        /// Must attach a new worker to Progman in order to draw behind icons. 
+        /// </summary>
         public static void findWorker()
         {
-            // Fetch the Progman window
             IntPtr progman = W32.FindWindow("Progman", null);
 
             IntPtr result = IntPtr.Zero;
 
             W32.SendMessageTimeout(progman,
-                                   0x052C,
+                                   0x052C,//user code
                                    new IntPtr(0),
                                    IntPtr.Zero,
                                    W32.SendMessageTimeoutFlags.SMTO_NORMAL,
@@ -172,7 +181,6 @@ namespace VideoDesk
 
                 if (p != IntPtr.Zero)
                 {
-                    // Gets the WorkerW Window after the current one.
                     workerw = W32.FindWindowEx(IntPtr.Zero,
                                                tophandle,
                                                "WorkerW",
@@ -184,7 +192,8 @@ namespace VideoDesk
                 return true;
             }), IntPtr.Zero);
 
-
+            //
+            /*
             W32.EnumWindows(new W32.EnumWindowsProc((tophandle, topparamhandle) =>
             {
                 IntPtr p = W32.FindWindowEx(tophandle,
@@ -205,7 +214,7 @@ namespace VideoDesk
                 return true;
             }), IntPtr.Zero);
 
-
+    */
         }
 
     }
