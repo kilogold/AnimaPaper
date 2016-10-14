@@ -1,4 +1,3 @@
-Depending on the video quality (HD / FullHD, 30FPS/60FPS, Codec used) The CPU usage may vary, from almost nothing with a low video quality, 30FPS to high usage with FullHD/4K + 60FPS. Memory usage should be video size + app size 
 # AnimaPaper
 
 AnimaPaper is a software that allow you to display a video (support most of the common extensions) behind the desktop's icons.
