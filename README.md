@@ -18,6 +18,11 @@ Require VS2015 and .NET Framework 4.5.
 
 https://github.com/IdolKeg/AnimaPaper/releases/tag/v0.3
 
+## Try it yourself
+
+- https://mega.nz/#!vMg3iBTR!l7z0rSBZWJ6y2oOUrSZuFPbLXm7Bc-ZdN_SCXShXxbQ
+- Credit for the video goes to this post https://www.reddit.com/r/Overwatch/comments/57apao/i_made_a_live_background_for_mercy_witch_to_1440p/
+
 ## Known issues
 
 Work only for Windows 8, 8.1 and 10 for now.
