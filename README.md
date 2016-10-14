@@ -1,4 +1,4 @@
-# $(PROJECT_NAME)
+# AnimaPaper
 
 AnimaPaper is a software that allow you to display a video (support most of the common extensions) behind the desktop's icons.
 
@@ -20,11 +20,11 @@ Work only for Windows 8, 8.1 and 10 for now.
 
 ## Current
 
-Load and play most video files like a Live Wallpaper (Looping)
-Can Minimize to Tray
-Multiple Monitor support (Maybe ? need some test, I have only 1, coding blindly)
-Can enable / disable sound while playing and change volume
-WiP different video on each monitor NOT FULLY IMPLEMENTED Basically the UI and some controls are here but not working, may crash if you try.
+- Load and play most video files like a Live Wallpaper (Looping)
+- Can Minimize to Tray
+- Multiple Monitor support (Maybe ? need some test, I have only 1, coding blindly)
+- Can enable / disable sound while playing and change volume
+- WiP different video on each monitor NOT FULLY IMPLEMENTED Basically the UI and some controls are here but not working, may crash if you try.
 
 ## Upcoming
 
