@@ -18,6 +18,7 @@ Require VS2015 and .NET Framework 4.5.
 
 Work only for Windows 8, 8.1 and 10 for now.
 
+
 ## Current
 
 - Use of ModernUI for WPF Library (Github here: https://github.com/firstfloorsoftware/mui )
@@ -26,6 +27,7 @@ Work only for Windows 8, 8.1 and 10 for now.
 - Can Minimize to Tray
 - Multiple Monitor support (Maybe ? need some test, I have only 1, coding blindly)
 - Can enable / disable sound while playing and change volume
+
 - WiP different video on each monitor NOT FULLY IMPLEMENTED Basically the UI and some controls are here but not working, may crash if you try.
 
 ## Upcoming
@@ -67,6 +69,8 @@ https://www.youtube.com/watch?v=Jj--GahPvUQ&feature=youtu.be
 ## Credits
 
 Creator Idolkeg.
+
+Need people that are better than me in C#. This is not coded in MVVM. Also the UI is very ugly. Feel free to fork, pull request :)
 
 Thank you, [contributors]!
 [contributors]: https://github.com/thoughtbot/$(REPO_NAME)/graphs/contributors
