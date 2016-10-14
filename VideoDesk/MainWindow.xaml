@@ -1,0 +1,19 @@
+﻿<mui:ModernWindow x:Name="Anime_Paper" x:Class="VideoDesk.MainWindow"
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+                  ContentSource="/Home.xaml" 
+Title="Anime Paper" Height="500" Width="800"
+                  
+           xmlns:local="clr-namespace:VideoDesk" IsTitleVisible="True">
+
+    <mui:ModernWindow.MenuLinkGroups>
+        <mui:LinkGroup DisplayName="Menu" >
+            <mui:LinkGroup.Links>
+                <mui:Link DisplayName="Home" Source="/Home.xaml"/>
+                <mui:Link DisplayName="About" Source="/About.xaml" />
+            </mui:LinkGroup.Links>
+        </mui:LinkGroup>
+    </mui:ModernWindow.MenuLinkGroups>
+    
+</mui:ModernWindow>
