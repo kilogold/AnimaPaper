@@ -18,23 +18,16 @@ Work only for Windows 8, 8.1 and 10 for now.
 ## Current
 
 Load and play most video files like a Live Wallpaper (Looping)
-
 Can Minimize to Tray
-
 Multiple Monitor support (Maybe ? need some test, I have only 1, coding blindly)
-
 Can enable / disable sound while playing and change volume
-
 WiP different video on each monitor NOT FULLY IMPLEMENTED Basically the UI and some controls are here but not working, may crash if you try.
 
 ## Upcoming
 
 Automatic patching ?
-
 Library management (Maybe ?)
-
 automatically change wallpapers/videos based on time? Like, one for the morning, one for afternoon, one for night, etc. (From xrailgun )
-
 1 different video per monitor (Yes it's possible, it requires some coding but I can do it :b) (It will also increase the CPU and Memory Load.
 
 
