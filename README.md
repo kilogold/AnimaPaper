@@ -5,6 +5,11 @@ AnimaPaper is a software that allow you to display a video (support most of the 
 Check the reddit topic for more informations:
 https://www.reddit.com/r/LivingBackgrounds/comments/57br0q/i_made_this_software_that_you_may_be_interested_in/
 
+## Informations about updates
+
+I (IdolKeg) currently have midterm as well as writing a thesis. That's why there are not much update for now. Wait a bit I will update it when I will be done with everything :)
+
+
 ## Installation
 
 - Download the 4 files ready to use.
