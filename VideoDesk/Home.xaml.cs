@@ -26,8 +26,6 @@ namespace VideoDesk
         bool onlyOne;
         bool winSeven;
 
-        bool alreadyBind;
-
         // For 1 video per monitor *not yet in*
         public static List<String> FileLoadList;
         public static List<int> FileLoadListSort;
@@ -43,7 +41,6 @@ namespace VideoDesk
             FileLoadListUri = new List<Uri>();
             onlyOne = true;
             Each.Visibility = Visibility.Hidden;
-            alreadyBind = false;
             /*
             //Multiple monitor thing (dynamic button creation)
             if (MainWindow.ScreenList.Count > 1)
@@ -165,7 +162,7 @@ namespace VideoDesk
                     MainWindow.media.Volume = 0;
                     MainWindow.media.IsEnabled = true;
                     MainWindow.media.Visibility = Visibility.Visible;
-                   MainWindow.media.MediaEnded += new RoutedEventHandler(m_MediaEnded);
+                  // MainWindow.media.MediaEnded += new RoutedEventHandler(m_MediaEnded);
 
                     MainWindow.media.MediaEnded += (send, eArgs) =>
                     {
@@ -241,7 +238,6 @@ namespace VideoDesk
                     //MainWindow.mediaList[i] = new MediaElement();
                     MainWindow.windowList[i].Close();
                 }
-                alreadyBind = true;
 
                 MainWindow.currentlyPlaying = false;
             }
