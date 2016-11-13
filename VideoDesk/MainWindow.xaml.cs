@@ -33,6 +33,7 @@ namespace VideoDesk
         public static Uri fileMedia;
         public static Window win2;
         public static MediaElement media = null;
+        public static List<MediaElement> mediaList;
 
         public static List<Window> windowList;
         public static List<System.Drawing.Rectangle> ScreenList;
@@ -77,6 +78,7 @@ namespace VideoDesk
              * windowList will be used to create 1 window per monitor *Not yet implemented*
              * ButtonList will be used to create dynamically button in order to select and load a file for each monitor *Not yet implemented*
              */
+            mediaList = new List<MediaElement>();
             windowList = new List<Window>();
             ScreenList = new List<System.Drawing.Rectangle>();
             ButtonList = new List<System.Windows.Controls.Button>();
@@ -87,6 +89,7 @@ namespace VideoDesk
             for (int i = 0; i < MainWindow.ScreenList.Count; i++)
             {
                 windowList.Add(new Window());
+                mediaList.Add(new MediaElement());
             }
 
             for (int i = 0; i < MainWindow.ScreenList.Count; i++)
