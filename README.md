@@ -49,7 +49,14 @@ Work only for Windows 8, 8.1 and 10 for now.
 - Automatic patching ?
 - Library management (Maybe ?)
 - automatically change wallpapers/videos based on time? Like, one for the morning, one for afternoon, one for night, etc. (From xrailgun )
-- 1 different video per monitor (Yes it's possible, it requires some coding but I can do it :b) (It will also increase the CPU and Memory Load.
+- 1 different video per monitor (Yes it's possible, it requires some coding but I can do it :b) (It will also increase the CPU and Memory Load.)
+- Need to revamp the UI (because this one is quite flawed), using MVVM way
+- Make it works as a service startup in Windows.
+
+## Known issues
+
+- Work on multiple monitors in duplicate mode but not in extended mode
+- Doesn't work on Win 7 and lower
 
 
 ## Usage

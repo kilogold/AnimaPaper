@@ -33,6 +33,8 @@ namespace VideoDesk
         public static Uri fileMedia;
         public static Window win2;
         public static MediaElement media = null;
+      //  public static List<MediaElement> mediaList;
+      //  public static List<Grid> gridList;
 
         public static List<Window> windowList;
         public static List<System.Drawing.Rectangle> ScreenList;
@@ -77,7 +79,9 @@ namespace VideoDesk
              * windowList will be used to create 1 window per monitor *Not yet implemented*
              * ButtonList will be used to create dynamically button in order to select and load a file for each monitor *Not yet implemented*
              */
+           // mediaList = new List<MediaElement>();
             windowList = new List<Window>();
+           // gridList = new List<Grid>();
             ScreenList = new List<System.Drawing.Rectangle>();
             ButtonList = new List<System.Windows.Controls.Button>();
             for (int i = 0; i < Screen.AllScreens.Length; i++)
@@ -87,6 +91,7 @@ namespace VideoDesk
             for (int i = 0; i < MainWindow.ScreenList.Count; i++)
             {
                 windowList.Add(new Window());
+               // mediaList.Add(new MediaElement());
             }
 
             for (int i = 0; i < MainWindow.ScreenList.Count; i++)
@@ -103,8 +108,8 @@ namespace VideoDesk
         {
             if (WindowState == WindowState.Minimized)
             {
-                ni.BalloonTipTitle = "Anime Paper";
-                ni.BalloonTipText = "Anime Paper is minimized";
+                ni.BalloonTipTitle = "Anima Paper";
+                ni.BalloonTipText = "Anima Paper is minimized";
                 ni.Visible = true;
                 ni.ShowBalloonTip(250);
                 this.Hide();
@@ -142,6 +147,8 @@ namespace VideoDesk
                 MainWindow.media = null;
                 for (int i = 0; i < MainWindow.windowList.Count; i++)
                 {
+                    //MainWindow.mediaList[i].Stop();
+                    //MainWindow.mediaList[i] = null;
                     MainWindow.windowList[i].Close();
                 }
 

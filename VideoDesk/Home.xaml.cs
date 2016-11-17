@@ -41,7 +41,7 @@ namespace VideoDesk
             FileLoadListUri = new List<Uri>();
             onlyOne = true;
             Each.Visibility = Visibility.Hidden;
-
+            /*
             //Multiple monitor thing (dynamic button creation)
             if (MainWindow.ScreenList.Count > 1)
             {
@@ -61,7 +61,7 @@ namespace VideoDesk
                 Multiple.IsEnabled = false;
             else
                 Multiple.IsEnabled = true;
-
+                */
         }
 
         //Multiple monitors
@@ -145,11 +145,12 @@ namespace VideoDesk
 
                 MainWindow.windowList[i].Initialized += new EventHandler((s, ea) =>
                 {
-
+                    
                     MainWindow.media = new MediaElement();
                     Grid grid = new Grid();
                     MainWindow.windowList[i].Content = grid;
                     grid.Children.Add(MainWindow.media);
+
 
                     MainWindow.media.Source = MainWindow.fileMedia;
                     MainWindow.media.LoadedBehavior = MediaState.Manual;
@@ -161,11 +162,47 @@ namespace VideoDesk
                     MainWindow.media.Volume = 0;
                     MainWindow.media.IsEnabled = true;
                     MainWindow.media.Visibility = Visibility.Visible;
-                    MainWindow.media.MediaEnded += new RoutedEventHandler(m_MediaEnded);
+                  // MainWindow.media.MediaEnded += new RoutedEventHandler(m_MediaEnded);
 
+                    MainWindow.media.MediaEnded += (send, eArgs) =>
+                    {
+                        MainWindow.media.Position = new TimeSpan(0, 0, 1);
+                        MainWindow.media.Play();
+                    };
                     MainWindow.media.Play();
                     MainWindow.currentlyPlaying = true;
                     MainWindow.media.Stretch = Stretch.Fill;
+                    
+
+                    /*
+                    Grid grid = new Grid();
+                    MainWindow.windowList[i].Content = grid;
+                    if (alreadyBind == false)
+                    {
+                        grid.Children.Add(MainWindow.mediaList[i]);
+                    }
+
+
+                    MainWindow.mediaList[i].Source = MainWindow.fileMedia;
+                    MainWindow.mediaList[i].LoadedBehavior = MediaState.Manual;
+
+                    if (MainWindow.soundOrNot)
+                        MainWindow.mediaList[i].IsMuted = false;
+                    else
+                        MainWindow.mediaList[i].IsMuted = true;
+                    MainWindow.mediaList[i].Volume = 0;
+                    MainWindow.mediaList[i].IsEnabled = true;
+                    MainWindow.mediaList[i].Visibility = Visibility.Visible;
+
+                    MainWindow.mediaList[i].Play();
+                    MainWindow.currentlyPlaying = true;
+                    MainWindow.mediaList[i].Stretch = Stretch.Fill;
+                    MainWindow.mediaList[i].MediaEnded += (send, eArgs) =>
+                    {
+                        MainWindow.mediaList[i].Position = new TimeSpan(0, 0, 1);
+                        MainWindow.mediaList[i].Play();
+                    };
+                    */
                     IntPtr windowHandle = new WindowInteropHelper(MainWindow.windowList[i]).Handle;
                     if (winSeven)
                         W32.SetParent(windowHandle, MainWindow.workerwHidden);
@@ -180,13 +217,14 @@ namespace VideoDesk
 
         }
 
+        
         public static void m_MediaEnded(object sender, RoutedEventArgs e)
         {
             MainWindow.media.Position = new TimeSpan(0, 0, 1);
             //MainWindow.media.Position = TimeSpan.FromSeconds(0);
             MainWindow.media.Play();
         }
-
+        
         private void StopButton_Click(object sender, RoutedEventArgs e)
         {
             if (MainWindow.currentlyPlaying == true)
@@ -195,8 +233,12 @@ namespace VideoDesk
                 MainWindow.media = null;
                 for (int i = 0; i < MainWindow.windowList.Count; i++)
                 {
+                    //MainWindow.mediaList[i].Stop();
+                    //MainWindow.mediaList[i] = null;
+                    //MainWindow.mediaList[i] = new MediaElement();
                     MainWindow.windowList[i].Close();
                 }
+
                 MainWindow.currentlyPlaying = false;
             }
         }
