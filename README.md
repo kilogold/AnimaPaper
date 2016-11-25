@@ -20,6 +20,7 @@ https://www.reddit.com/r/LivingBackgrounds/comments/57br0q/i_made_this_software_
 
 Require VS2015 and .NET Framework 4.5.
 
+
 ## Current release (Download this)
 
 https://github.com/IdolKeg/AnimaPaper/releases/tag/v0.3
@@ -53,6 +54,9 @@ Work only for Windows 8, 8.1 and 10 for now.
 - 1 different video per monitor (Yes it's possible, it requires some coding but I can do it :b) (It will also increase the CPU and Memory Load.)
 - Need to revamp the UI (because this one is quite flawed), using MVVM way
 - Make it works as a service startup in Windows.
+- Make a config file to load and play the last video on launch (idea: https://www.reddit.com/user/Hi_ItsPaul)
+- Lower the CPU usage
+- Automatic crash report
 
 ## Known issues
 
