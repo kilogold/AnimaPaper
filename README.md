@@ -7,8 +7,9 @@ https://www.reddit.com/r/LivingBackgrounds/comments/57br0q/i_made_this_software_
 
 ## Informations about updates
 
-I (IdolKeg) currently have midterm as well as writing a thesis. That's why there are not much update for now. Wait a bit I will update it when I will be done with everything :)
-
+- I (IdolKeg) currently have midterm as well as writing a thesis. That's why there are not much update for now. Wait a bit I will update it when I will be done with everything :)
+- My motherboard fried today (26/11/2016), and since I don't have 50€ to spend to replace it (joys of being student), I will have to wait until I find a job after my thesis to afford one.
+- So, IF you are a dev and willing to help little bit, feel free :), I like this project as it is free and open source for everyone and useful for some people :)
 
 ## Installation
 
