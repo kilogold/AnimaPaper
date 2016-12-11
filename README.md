@@ -9,6 +9,7 @@ https://www.reddit.com/r/LivingBackgrounds/comments/57br0q/i_made_this_software_
 
 - I (IdolKeg) currently have midterm as well as writing a thesis. That's why there are not much update for now. Wait a bit I will update it when I will be done with everything :)
 - My motherboard fried today (26/11/2016), and since I don't have 50€ to spend to replace it (joys of being student), I will have to wait until I find a job after my thesis to afford one.
+- As of 11/12/2016, still no replacement for my motherboard, Exam time also. I will resume dev as son as I can.
 - So, IF you are a dev and willing to help little bit, feel free :), I like this project as it is free and open source for everyone and useful for some people :)
 
 ## Installation
@@ -43,7 +44,6 @@ Work only for Windows 8, 8.1 and 10 for now.
 - Can Minimize to Tray
 - Multiple Monitor support (Maybe ? need some test, I have only 1, coding blindly)
 - Can enable / disable sound while playing and change volume
-
 - WiP different video on each monitor NOT FULLY IMPLEMENTED Basically the UI and some controls are here but not working, may crash if you try.
 
 ## Upcoming
@@ -75,6 +75,13 @@ https://www.youtube.com/watch?v=Jj--GahPvUQ&feature=youtu.be
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
+
+
+## Donate
+
+If you'd like to help me :)
+
+[![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=Z8VVJ5X6FRVP6)
 
 ## Changelog
 
